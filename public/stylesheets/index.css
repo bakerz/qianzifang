@@ -1,0 +1,8 @@
+#index-carousel {
+	width: 100%;
+	background-color: #ccc;
+}
+#index-carousel #carousel-example-generic{
+	max-width: 1366px;
+	margin: 0 auto;
+}
