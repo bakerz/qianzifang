@@ -1,12 +1,16 @@
 body {
-  padding-top: 51px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#qzf-header-top {
+	height: 120px;
 }
 .navbar-my {
 	background-color: #e40082;
+	margin: 0;
 }
 .navbar-my .nav > li.active > a,
-.navbar-my .nav > li > a:hover {
+.navbar-my .nav > li > a:hover,
+.navbar-my .nav > li > a:focus {
 	background-color: #700000;
 }
 .navbar-my a {
