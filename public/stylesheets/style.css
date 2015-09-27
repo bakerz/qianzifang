@@ -8,6 +8,12 @@ body {
 	background-color: #e40082;
 	margin: 0;
 }
+.navbar-my .navbar-brand {
+	font-size: 20px;
+}
+.navbar-my .nav > li > a {
+	font-size: 18px;
+}
 .navbar-my .nav > li.active > a,
 .navbar-my .nav > li > a:hover,
 .navbar-my .nav > li > a:focus {
