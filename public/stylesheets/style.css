@@ -3,6 +3,10 @@ body {
 }
 #qzf-header-top {
 	height: 120px;
+	background: transparent url('/images/qzf-top-icon.png') repeat-x scroll 0 0;
+}
+#qzf-header-top .qzf-top-msg {
+	padding-top: 30px;
 }
 .navbar-my {
 	background-color: #e40082;
