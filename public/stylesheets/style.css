@@ -6,7 +6,10 @@ body {
 	background: transparent url('/images/qzf-top-icon.png') repeat-x scroll 0 0;
 }
 #qzf-header-top .qzf-top-msg {
-	padding-top: 30px;
+	padding-top: 25px;
+}
+#qzf-header-top .qzf-top-msg-r img {
+	width: 500px;
 }
 .navbar-my {
 	background-color: #e40082;
