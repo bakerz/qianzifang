@@ -8,13 +8,32 @@ body {
 #qzf-header-top .qzf-top-msg {
 	padding-top: 25px;
 }
-#qzf-header-top .qzf-top-msg-r img {
+#qzf-header-top .qzf-top-msg-l {
+	padding-left: 100px;
+}
+#qzf-header-top .qzf-top-msg-l img {
 	width: 500px;
+}
+#qzf-header-top .qzf-top-msg-r {
+	padding: 20px 150px 0 0;
+}
+#qzf-header-top .qzf-top-msg-r .qzf-top-icon {
+	color: #e40082;
+	font-size: 30px;
+	margin-right: 15px;
+}
+#qzf-header-top .qzf-top-msg-r .qzf-top-text {
+	margin-right: 5px;
+}
+#qzf-header-top .qzf-top-msg-r .qzf-top-num {
+	color: #e40082;
+	font-size: 20px;
 }
 .navbar-my {
 	background-color: #e40082;
 	margin: 0;
 	border: none;
+	min-height: 40px;
 }
 .navbar-my button {
 	background-color: #b90254;
@@ -45,7 +64,7 @@ body {
 **/
 .navbar-my .nav > li > a {
 	font-size: 16px;
-	padding: 15px 25px;
+	padding: 12px 25px;
 }
 .navbar-my .nav > li.active > a,
 .navbar-my .nav > li > a:hover,
