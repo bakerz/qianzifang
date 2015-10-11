@@ -1,0 +1,33 @@
+.company-about-img {
+	height: 400px;
+	background-color: red;
+}
+.company-about-img img {
+	height: 100%;
+}
+.company-boss-img {
+	height: 300px;
+	background-color: #ccc;
+}
+.company-boss-text {
+	height: 50px;
+	padding: 0 30px;
+	color: #fff;
+	background-color: red;
+	text-align: right;
+	line-height: 50px;
+}
+.company-boss-text .company-boss-name {
+	font-size: 18px;
+	padding: 0 10px;
+}
+.about-title {
+	margin-top: 30px;
+	color: red;
+}
+.about-second-title {
+	font-weight: bold;
+}
+.about-text {
+	text-indent: 2em;
+}
