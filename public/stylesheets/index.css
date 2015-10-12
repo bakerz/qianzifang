@@ -45,11 +45,10 @@
 	border: 1px solid #e1eef2;
 }
 .business-item .business-img {
-	height: 150px;
 }
 .business-item .business-img img {
 	width: 100%;
-	height: 100%; ///!!!!!!!!!!!!!!!!
+	height: auto;///!!!!!!!!!!!!!!!!
 }
 .business-item .business-new-title {
 	text-align: center;
@@ -92,14 +91,14 @@
 }
 #qzf-msg .qzf-msg-team img {
 	width: 100%;
-	height: 300px; //!!!!!!!!!!!!!!1
+	height: auto; //!!!!!!!!!!!!!!1
 }
 #qzf-msg .qzf-msg-trends {
 	margin-top: 15px;
 }
 #qzf-msg .qzf-msg-trends img {
 	width: 100%;
-	height: 170px; //!!!!!!!!!!!
+	height: auto; //!!!!!!!!!!!
 }
 #qzf-msg .qzf-msg-trends ul {
 	padding: 0;
@@ -147,7 +146,7 @@
 }
 #qzf-product .style-img img {
 	width: 100%;
-	height: 365px;
+	height: auto;
 }
 
 /* 产品展示 end */
@@ -168,7 +167,7 @@
 }
 #qzf-album img {
 	width: 100%;
-	height: 285px; ///~~~~~~~~~~~~~~~~~~~~~
+	height: auto; ///~~~~~~~~~~~~~~~~~~~~~
 }
 #qzf-album .cover {
 	width: 100%;
@@ -205,7 +204,7 @@
 }
 #qzf-honour img {
 	width: 100%;
-	height: 180px; //!!!!!
+	height: auto; //!!!!!
 }
 /* 品牌荣誉 end */
 
@@ -241,7 +240,7 @@
 }
 #qzf-information .qzf-info-item img {
 	width: 100%;
-	height: 110px; //!!!!!!!!!!!!!!!!!!
+	height: auto; //!!!!!!!!!!!!!!!!!!
 }
 #qzf-information .qzf-info-item ul {
 	padding: 0;

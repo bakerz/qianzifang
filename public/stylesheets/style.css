@@ -1,6 +1,9 @@
 body {
   font: 14px "Microsoft YaHei", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+a:hover {
+	text-decoration: none;
+}
 #qzf-header-top {
 	height: 120px;
 	background: transparent url('/images/qzf-top-icon.png') repeat-x scroll 0 0;
@@ -78,6 +81,5 @@ body {
 #footer {
 	height: 50px;
 	line-height: 50px;
-	text-align: center;
 	border-top: 1px solid #e40082;
 }
