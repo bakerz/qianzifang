@@ -1,9 +1,28 @@
 .company-about-img {
-	background-color: red;
+	background-color: #E4A9E0;
 	margin-bottom: 50px;
 }
-.company-about-img img {
-	width: 100%;
+.about-img-box {
+	max-width: 1366px;
+	height: 667px;
+	margin: 0 auto;
+	background-image: url('../images/about-img.jpg');
+	padding: 50px 0 0 0;
+}
+.about-img-title {
+	font-size: 30px;
+	color: #e40082;
+}
+.about-img-tag {
+	font-size: 20px;
+	color: #e40082;
+	margin: 20px auto 50px auto;
+}
+.about-img-text {
+	width: 76%;
+	font-size: 18px;
+	margin: 0 auto;
+	line-height: 2;
 }
 .company-boss-img {
 	height: 300px;
