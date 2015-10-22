@@ -1,0 +1,22 @@
+#content {
+	font-size: 1.4rem;
+}
+.con-title {
+	color: #e40082;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.con-second-title {
+	color: #000;
+	font-size: 1.6rem;
+}
+.con-map {
+	width: 700px;
+	height: 500px;
+	border: 1px solid #ccc;
+}
+.con-code-img {
+	width: 350px;
+	height: 350px;
+	border: 1px solid #ccc;
+}

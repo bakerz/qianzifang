@@ -36,9 +36,10 @@
 	background-color: #e40082;
 	text-align: right;
 	line-height: 50px;
+	font-size: 1.6em;
 }
 .company-boss-text .company-boss-name {
-	font-size: 18px;
+	font-size: 1.25em;
 	padding: 0 10px;
 }
 .tri-box {
@@ -65,26 +66,32 @@
 	line-height: 30px;
 	border: 1px solid #ccc;
 	margin: 30px;
+	font-size: 1.6em;
 }
 .company-slogan {
 	color: #e40082;
 	padding: 20px;
 	border: 1px solid #ccc;
 	margin: 30px;
+	font-size: 1.6em;
 }
 .about-content {
 	margin: 10px 0 50px 0;
 	border-top: 1px solid #e1eef2;
 }
 .about-title {
-	font-size: 16px;
+	font-size: 2em;
 	margin-top: 30px;
 	color: #e40082;
 	font-weight: bold;
 }
 .about-second-title {
 	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 28px;
 }
 .about-text {
 	text-indent: 2em;
+	font-size: 1.6em;
+	line-height: 28px;
 }
