@@ -1,3 +1,6 @@
+#content {
+	font-size: 1.4rem;
+}
 #index-carousel {
 	width: 100%;
 	background-color: #ccc;
@@ -10,7 +13,6 @@
 /* 新店开业 */
 #business {
 	margin: 50px 0;
-	font-size: 12px;
 	padding: 0 9px;
 }
 .husiness-header {
