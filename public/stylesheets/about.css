@@ -28,6 +28,10 @@
 .company-boss-img {
 	height: 300px;
 	background-color: #ccc;
+	text-align: center;
+}
+.company-boss-img img {
+	height: 100%;
 }
 .company-boss-text {
 	height: 50px;

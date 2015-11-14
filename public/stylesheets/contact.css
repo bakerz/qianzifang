@@ -13,10 +13,16 @@
 .con-map {
 	width: 700px;
 	height: 500px;
-	border: 1px solid #ccc;
+//	border: 1px solid #ccc;
+}
+.con-map img {
+	height: 100%;
 }
 .con-code-img {
 	width: 350px;
 	height: 350px;
 	border: 1px solid #ccc;
+}
+.con-code-img img {
+	height: 100%;
 }
