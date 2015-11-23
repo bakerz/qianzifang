@@ -43,30 +43,9 @@ a:hover {
 .navbar-my button .icon-bar {
 	background-color: #fff;
 }
-.navbar-my .navbar-collapse-my {
-	margin-left: calc((100% - 1034px) / 2);
-}
-@media screen and (max-width: 1200px) {
-	.navbar-my .navbar-collapse-my {
-		margin-left: calc((100% - 880px) / 2);
-	}	
-}
-/**
-@media screen and (max-width: 910px) {
-	.navbar-my .navbar-collapse-my {
-		display: none !important;
-	}
-	.navbar-my .navbar-header {
-		float: right;
-	}
-	.navbar-my .navbar-header button {
-		display: inline-block;
-	}
-}
-**/
 .navbar-my .nav > li > a {
 	font-size: 16px;
-	padding: 12px 25px;
+	padding: 12px 18px;
 }
 .navbar-my .nav > li.active > a,
 .navbar-my .nav > li > a:hover,
@@ -91,4 +70,14 @@ a:hover {
 	#qzf-header-top .qzf-top-msg-r {
 		padding-top: 0;
 	}
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.navbar-my .navbar-my {
+		margin-left: calc((100% - 800px) / 2);
+	}	
+}
+@media screen and (min-width: 1200px) {
+	.navbar-my .navbar-my {
+		margin-left: calc((100% - 954px) / 2);
+	}	
 }
