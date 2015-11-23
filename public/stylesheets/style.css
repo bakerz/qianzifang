@@ -11,14 +11,13 @@ a:hover {
 #qzf-header-top .qzf-top-msg {
 	padding-top: 25px;
 }
-#qzf-header-top .qzf-top-msg-l {
-	padding-left: 100px;
-}
 #qzf-header-top .qzf-top-msg-l img {
-	width: 500px;
+	width: 80%;
+	max-width: 520px;
+	height: auto;
 }
 #qzf-header-top .qzf-top-msg-r {
-	padding: 20px 150px 0 0;
+	padding-top: 20px;
 }
 #qzf-header-top .qzf-top-msg-r .qzf-top-icon {
 	color: #e40082;
@@ -82,4 +81,14 @@ a:hover {
 	height: 50px;
 	line-height: 50px;
 	border-top: 1px solid #e40082;
+}
+
+@media screen and (max-width: 768px) {
+	#qzf-header-top .qzf-top-msg-l img {
+		width: auto;
+		height: 40px;
+	}
+	#qzf-header-top .qzf-top-msg-r {
+		padding-top: 0;
+	}
 }
