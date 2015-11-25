@@ -15,6 +15,10 @@
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
 }
+.category ul li.active {
+	color: #fff;
+	background-color: #E845A2;
+}
 
 .pro-box {
 	margin: 0 15px;
