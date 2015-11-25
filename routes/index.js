@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-	res.render('about', {title: ''});
+	res.render('about', {title: '企业介绍'});
 });
 
 router.get('/join', function(req, res, next) {
@@ -23,11 +23,11 @@ router.get('/train', function(req, res, next) {
 });
 
 router.get('/product', function(req, res, next) {
-	res.render('product', {title: ''});
+	res.render('product', {title: '合作品牌'});
 });
 
 router.get('/contact', function(req, res, next) {
-	res.render('contact', {title: ''});
+	res.render('contact', {title: '联系我们'});
 });
 
 router.get('/staff', function(req, res, next) {
