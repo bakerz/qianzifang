@@ -2,10 +2,12 @@ $(function() {
 	$('.category li').on('click', function() {
 		var CLO_TYPE = $(this).data('type');
 		
+		$(this).addClass('active').siblings().removeClass('active');
+		
 		getProduct(CLO_TYPE);
 	});
 	
-	//getProduct('bra')
+	getProduct('bra')
 })
 
 function getProduct(type) {

@@ -22,19 +22,31 @@ router.get('/bra', function(req, res) {
 });
 
 router.get('/underpants', function(req, res) {
-	res.json({'success': 1});
+	res.json({
+		'success': 1,
+		'datas': []
+	});
 });
 
 router.get('/pajamas', function(req, res) {
-	res.json({'success': 1});
+	res.json({
+		'success': 1,
+		'datas': []
+	});
 });
 
 router.get('/warmdacloth', function(req, res) {
-	res.json({'success': 1});
+	res.json({
+		'success': 1,
+		'datas': []
+	});
 });
 
 router.get('/leggings', function(req, res) {
-	res.json({'success': 1});
+	res.json({
+		'success': 1,
+		'datas': []
+	});
 });
 
 module.exports = router;
