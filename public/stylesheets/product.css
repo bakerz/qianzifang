@@ -18,6 +18,7 @@
 .category ul li.active {
 	color: #fff;
 	background-color: #E845A2;
+	border-radius: 5px;
 }
 
 .pro-box {
