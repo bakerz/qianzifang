@@ -34,4 +34,8 @@ router.get('/staff', function(req, res, next) {
 	res.render('staff', {title: ''});
 });
 
+router.get('/weixin', function(req, res, next) {
+	res.render('Er6n6zZ', {title: ''});
+});
+
 module.exports = router;
