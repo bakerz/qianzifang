@@ -18,8 +18,8 @@ router.get('/business', function(req, res, next) {
 	res.render('business', {title: ''});
 });
 
-router.get('/train', function(req, res, next) {
-	res.render('train', {title: ''});
+router.get('/activity', function(req, res, next) {
+	res.render('activity', {title: '活动动态'});
 });
 
 router.get('/product', function(req, res, next) {
