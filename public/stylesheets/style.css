@@ -81,27 +81,3 @@ a:hover {
 		margin-left: calc((100% - 954px) / 2);
 	}	
 }
-
-
-/* page train */
-.container p {
-	text-indent: 2em;
-}
-.activity-img {
-	float: left;
-	width: 50%;
-	height: 300px;
-	text-align: center;
-}
-.activity-img img {
-	height: 100%;
-	max-width: 100%;
-}
-.data-img {
-	text-align: center;
-	margin-bottom: 10px;
-}
-.data-img img {
-	width: 90%;
-}
-/* page train end */
