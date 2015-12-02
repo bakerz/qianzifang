@@ -16,9 +16,6 @@ a:hover {
 	max-width: 520px;
 	height: auto;
 }
-#qzf-header-top .qzf-top-msg-r {
-	padding-top: 20px;
-}
 #qzf-header-top .qzf-top-msg-r .qzf-top-icon {
 	color: #e40082;
 	font-size: 30px;
@@ -68,7 +65,10 @@ a:hover {
 		height: 40px;
 	}
 	#qzf-header-top .qzf-top-msg-r {
-		padding-top: 0;
+		padding-top: 10px;
+	}
+	#qzf-header-top .qzf-top-msg-r .qzf-top-num {
+		font-size: 12px;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
