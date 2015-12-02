@@ -7,7 +7,7 @@
 	height: 667px;
 	margin: 0 auto;
 	background-image: url('../images/about-img.jpg');
-	padding: 50px 0 0 0;
+	padding: 30px 0 0 0;
 }
 .about-img-title {
 	font-size: 30px;
@@ -16,14 +16,16 @@
 .about-img-tag {
 	font-size: 20px;
 	color: #e40082;
-	margin: 20px auto 50px auto;
+	margin: 10px auto 30px auto;
 }
 .about-img-text {
 	width: 76%;
 	font-size: 18px;
 	margin: 0 auto;
-	line-height: 2;
+	line-height: 1.7;
 	color: #000;
+	max-height: 500px;
+	overflow-y: auto;
 }
 .company-boss-img {
 	height: 300px;
