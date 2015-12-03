@@ -11,18 +11,19 @@
 	font-size: 1.6rem;
 }
 .con-map {
-	width: 700px;
-	height: 500px;
-//	border: 1px solid #ccc;
+	width: 100%;
+	max-width: 500px;
+	padding: 0 10px;
+	margin-bottom: 20px;
 }
 .con-map img {
-	height: 100%;
+	width: 100%;
 }
 .con-code-img {
-	width: 350px;
-	height: 350px;
-	border: 1px solid #ccc;
+	width: 180px;
+	padding: 0 10px;
+	margin-bottom: 20px;
 }
 .con-code-img img {
-	height: 100%;
+	width: 100%;
 }
