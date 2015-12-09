@@ -11,6 +11,10 @@ a:hover {
 #qzf-header-top .qzf-top-msg {
 	padding-top: 25px;
 }
+#qzf-header-top .qzf-top-msg-l,
+#qzf-header-top .qzf-top-msg-r {
+	text-align: center;
+}
 #qzf-header-top .qzf-top-msg-l img {
 	width: 80%;
 	max-width: 520px;
